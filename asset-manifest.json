@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SpaceXships/static/css/main.c90afc9e.css",
-    "main.js": "/SpaceXships/static/js/main.a2018ab1.js",
+    "main.css": "/SpaceXships/static/css/main.0b88aa78.css",
+    "main.js": "/SpaceXships/static/js/main.27aac6c5.js",
     "static/js/787.28cb0dcd.chunk.js": "/SpaceXships/static/js/787.28cb0dcd.chunk.js",
     "static/media/loading.gif": "/SpaceXships/static/media/loading.52a77ffcd8d416b0fc3a.gif",
     "index.html": "/SpaceXships/index.html",
-    "main.c90afc9e.css.map": "/SpaceXships/static/css/main.c90afc9e.css.map",
-    "main.a2018ab1.js.map": "/SpaceXships/static/js/main.a2018ab1.js.map",
+    "main.0b88aa78.css.map": "/SpaceXships/static/css/main.0b88aa78.css.map",
+    "main.27aac6c5.js.map": "/SpaceXships/static/js/main.27aac6c5.js.map",
     "787.28cb0dcd.chunk.js.map": "/SpaceXships/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c90afc9e.css",
-    "static/js/main.a2018ab1.js"
+    "static/css/main.0b88aa78.css",
+    "static/js/main.27aac6c5.js"
   ]
 }
