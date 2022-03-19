@@ -20,7 +20,11 @@
 
 .shipCardContainer .shipCardBack {
     width: 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     cursor: pointer;
 }
@@ -28,6 +32,8 @@
 .shipCardContainer .shipCardBack .arrowIcon {
     width: 16px;
     height: 16px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
@@ -48,21 +54,19 @@
 
 .shipCardContainer .shipProps {
     margin-top: 53px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
     justify-content: left;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
 .shipCardContainer .shipProps .shipProp {
+    -ms-flex-preferred-size: 40%;
     flex-basis: 40%;
-}
-
-.shipCardContainer .shipProps .shipType {
-
-}
-
-.shipCardContainer .shipProps .shipPort {
-
 }
 
 .shipCardContainer .shipProps .shipWeight {

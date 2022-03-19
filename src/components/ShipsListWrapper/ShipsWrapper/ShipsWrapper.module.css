@@ -1,9 +1,12 @@
 .shipsContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 100vh;
 }
 
 .shipsContainer .shipsWrapper {
+    -ms-flex-preferred-size: 79.5%;
     flex-basis: 79.5%;
     background-color: #fafafa;
 }

@@ -4,9 +4,6 @@
 }
 
 .shipContainer .shipHeader {
-  /*display: flex;
-  align-items: center;
-  justify-content: left;*/
   min-width: 120px;
 }
 
@@ -22,23 +19,21 @@
 }
 
 .shipContainer .shipProps {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
   justify-content: left;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin: 29px 0;
 }
 
 .shipContainer .shipProps div {
+  -ms-flex-preferred-size: 40%;
   flex-basis: 40%;
-}
-
-
-.shipContainer .shipProps .shipType {
-
-}
-
-.shipContainer .shipProps .shipName {
-
 }
 
 .shipContainer .shipProps div .propName {
@@ -50,4 +45,3 @@
   font-size: 16px;
   color: #2962ff;
 }
-
