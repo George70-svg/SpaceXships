@@ -1,0 +1,106 @@
+.loadingContainer {
+    min-height: 100vh;
+}
+
+.loadingContainer h1 {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 52px 64px 24px 64px;
+}
+
+.loadingContainer .loadingImg {
+    margin-top: 64px;
+}
+
+.shipCardContainer {
+    width: 79.5%;
+    min-height: 100vh;
+    padding: 48px 64px 0 64px;
+}
+
+.shipCardContainer .shipCardBack {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shipCardContainer .shipCardBack .arrowIcon {
+    width: 16px;
+    height: 16px;
+    transform: rotate(180deg);
+}
+
+.shipCardContainer .shipCardBack span {
+    margin-left: 8px;
+    font-size: 16px;
+    color: #2962ff;
+}
+
+.shipCardContainer .shipName {
+    margin-top: 22px;
+}
+
+.shipCardContainer .h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.shipCardContainer .shipProps {
+    margin-top: 53px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.shipCardContainer .shipProps .shipProp {
+    flex-basis: 40%;
+}
+
+.shipCardContainer .shipProps .shipType {
+
+}
+
+.shipCardContainer .shipProps .shipPort {
+
+}
+
+.shipCardContainer .shipProps .shipWeight {
+    margin-top: 40px;
+}
+
+.shipCardContainer .shipProps .shipYear {
+    margin-top: 40px;
+}
+
+.shipCardContainer .shipProps .shipYear .propType {
+    margin-left: 114px !important;
+}
+
+.shipCardContainer .shipProps .shipProp .propName {
+    font-size: 16px;
+}
+
+.shipCardContainer .shipProps .shipProp .propType {
+    margin-left: 104px;
+    font-size: 16px;
+    color: #2962ff;
+}
+
+.shipCardContainer .spaceMissions {
+    margin-top: 40px;
+    width: 700px;
+}
+
+.shipCardContainer .spaceMissions h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shipCardContainer .spaceMissions .missions {
+    margin-top: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2962ff;
+    line-height: 36px;
+}

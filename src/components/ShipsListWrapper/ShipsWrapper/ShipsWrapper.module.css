@@ -1,0 +1,30 @@
+.shipsContainer {
+    display: flex;
+    min-height: 100vh;
+}
+
+.shipsContainer .shipsWrapper {
+    flex-basis: 79.5%;
+    background-color: #fafafa;
+}
+
+.shipsContainer .shipsWrapper h1 {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 52px 64px 24px 64px;
+}
+
+.shipsContainer .shipsWrapper .ships {
+    margin: 0 64px;
+}
+
+.loadingPage {
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.loadingPage h1 {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 52px 64px 24px 64px;
+}

@@ -1,0 +1,197 @@
+.filterWrapper {
+    flex-basis: 20.5%;
+    min-width: 200px;
+    background-color: #ffffff;
+    border-left: 1px solid #a5a5a5;
+}
+
+.filterWrapper h2 {
+    margin-top: 52px;
+    margin-left: 33px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.filterWrapper form {
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Конетейнер для инпута*/
+.filterWrapper form .inputContainer {
+    position: relative;
+    width: 100%;
+    padding: 0 33px;
+}
+
+.filterWrapper form .inputContainer:focus-within::before {
+    position: absolute;
+    bottom: 26px;
+    color: rgba(0, 0, 0, 40%);
+    font-size: 14px;
+    content: 'Название';
+}
+
+.filterWrapper form .inputContainer input {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 30%);
+    outline: none;
+    padding: 7px 0;
+    caret-color: #347CFF;
+}
+
+.filterWrapper form .inputContainer input:focus {
+    border-bottom: 1px solid #347CFF;
+}
+
+.filterWrapper form .inputContainer input:focus::placeholder {
+    color: transparent;
+}
+
+.filterWrapper form .inputContainer input:focus::before {
+    content: 'Название';
+}
+
+/* Конетейнер для чекбоксов*/
+.filterWrapper form .selectContainer {
+    width: 100%;
+    margin-top: 41px;
+}
+
+.filterWrapper form .selectContainer .inputContainer {
+
+}
+
+.filterWrapper form .selectContainer .inputContainer input {
+    caret-color: transparent;
+    cursor: pointer;
+}
+
+.filterWrapper form .selectContainer .inputContainer::before {
+    content: 'Порт';
+    position: absolute;
+    bottom: 26px;
+    color: rgba(0, 0, 0, 40%);
+    font-size: 14px;
+}
+
+.filterWrapper form .selectContainer .checkBoxs {
+    margin: 0 33px;
+    padding: 1px 17px 17px 17px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.23), 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.filterWrapper form .selectContainer .checkBoxs .checkBox {
+    display: flex;
+    position: relative;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.filterWrapper form .selectContainer .checkBoxs .checkBox label {
+    margin-left: 13px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.filterWrapper form .selectContainer .checkBoxs .checkBox input {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    border: 2px solid black;
+}
+
+.filterWrapper form .selectContainer .checkBoxs .checkBox input[type="checkbox"]:checked::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: #2962FF;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.filterWrapper form .selectContainer .checkBoxs .checkBox input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 8px;
+    height: 12px;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg);
+}
+
+/* Контейнер для радиокнопок*/
+.filterWrapper form .radioBoxContainer {
+    margin-top: 41px;
+    margin-left: 33px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.filterWrapper form .radioBoxContainer h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.filterWrapper form .radioBoxContainer .radio {
+    position: relative;
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+.filterWrapper form .radioBoxContainer .radio .hidden {
+    display: none;
+}
+
+.filterWrapper form .radioBoxContainer .radio .label {
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 28px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #DADADA;
+    border-radius: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.filterWrapper form .radioBoxContainer .radio .label:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #2962FF;
+    transform: scale(0);
+    transition: all 0.2s;
+    opacity: 0.08;
+    pointer-events: none;
+}
+
+.filterWrapper form .radioBoxContainer input[type="radio"]:checked + .label {
+    border-color: #2962FF;
+}
+
+.filterWrapper form .radioBoxContainer input[type="radio"]:checked + .label:after {
+    transform: scale(1);
+    transition: all 0.2s;
+    opacity: 1;
+}
+
+

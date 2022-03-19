@@ -1,0 +1,53 @@
+.shipContainer {
+  margin-top: 40px;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.shipContainer .shipHeader {
+  /*display: flex;
+  align-items: center;
+  justify-content: left;*/
+  min-width: 120px;
+}
+
+.shipContainer .shipHeader .shipName {
+  font-size: 20px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.shipContainer .shipHeader .arrowIcon {
+  margin: 4px 0 0 23px;
+  cursor: pointer;
+}
+
+.shipContainer .shipProps {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 29px 0;
+}
+
+.shipContainer .shipProps div {
+  flex-basis: 40%;
+}
+
+
+.shipContainer .shipProps .shipType {
+
+}
+
+.shipContainer .shipProps .shipName {
+
+}
+
+.shipContainer .shipProps div .propName {
+  font-size: 16px;
+}
+
+.shipContainer .shipProps div .propType {
+  margin-left: 104px;
+  font-size: 16px;
+  color: #2962ff;
+}
+

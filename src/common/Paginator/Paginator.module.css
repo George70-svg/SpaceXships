@@ -1,0 +1,31 @@
+.paginatorContainer {
+    margin: 64px 62px 64px 62px;
+}
+
+.paginatorContainer .arrow {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid #347CFF;
+    border-left: 3px solid #347CFF;
+    cursor: pointer;
+}
+
+.paginatorContainer .leftArrow {
+    transform: rotate(-45deg);
+}
+
+.paginatorContainer .rightArrow {
+    transform: rotate(135deg);
+}
+
+.paginatorContainer .disabledArrow {
+    border-top: 3px solid #3C474C;
+    border-left: 3px solid #3C474C;
+}
+
+.paginatorContainer .page {
+    display: inline-block;
+    margin: 0 27px;
+    font-size: 16px;
+}
