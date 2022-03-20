@@ -80,7 +80,7 @@ const FilterWrapper = (props) => {
                                    onChange={formik.handleChange}
                                    //Проверка содержится ли в state фильтра значение этого чекбокса
                                    //Если содержится, то чекбокс становится включенным
-                                   checked={props.checkedPortName.includes("Port Canaveral")} //ECMAScript7 (не работает в ex11???)
+                                   checked={props.checkedPortName.includes("Port Canaveral")} //ECMAScript7
                             />
                             <label htmlFor="port_canaveral">Port Canaveral</label>
                         </div>
@@ -92,7 +92,7 @@ const FilterWrapper = (props) => {
                                    onChange={formik.handleChange}
                                    //Проверка содержится ли в state фильтра значение этого чекбокса
                                    //Если содержится, то чекбокс становится включенным
-                                   checked={props.checkedPortName.includes("Port of Los Angeles")} //ECMAScript7 (не работает в ex11???)
+                                   checked={props.checkedPortName.includes("Port of Los Angeles")} //ECMAScript7
                             />
                             <label htmlFor="port_of_los_angeles">Port of Los Angeles</label>
                         </div>
@@ -104,7 +104,7 @@ const FilterWrapper = (props) => {
                                    onChange={formik.handleChange}
                                    //Проверка содержится ли в state фильтра значение этого чекбокса
                                    //Если содержится, то чекбокс становится включенным
-                                   checked={props.checkedPortName.includes("Fort Lauderdale")} //ECMAScript7 (не работает в ex11???)
+                                   checked={props.checkedPortName.includes("Fort Lauderdale")} //ECMAScript7
                             />
                             <label htmlFor="fort_lauderdale">Fort Lauderdale</label>
                         </div>
